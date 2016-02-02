@@ -74,6 +74,18 @@ body {
   height: 130px;
 }
 
+
+.datepickerdemoBasicUsage {
+ }
+.datepickerdemoBasicUsage md-content {
+    padding-bottom: 200px; }
+.datepickerdemoBasicUsage .validation-messages {
+    font-size: 11px;
+    color: darkred;
+    margin: 10px 0 0 25px; }
+
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

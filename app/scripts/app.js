@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name appYoApp
- * @description
- * # appYoApp
- *
- * Main module of the application.
- */
 angular
   .module('appYoApp', [
     'ngAnimate',
@@ -17,8 +9,15 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ngMaterial'
+    'ngMaterial',
+    'ui.sortable',
+    'LocalStorageModule'
   ])
+
+  .config(['localStorageServiceProvider', function(localStorageServiceProvider){
+    localStorageServiceProvider.setPrefix('ls');
+  }])
+
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

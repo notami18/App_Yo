@@ -40,6 +40,6 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "angular-local-storage": "^0.2.2"
+    "angular-local-storage": "^0.2.2",
   }
 }

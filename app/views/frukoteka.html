@@ -9,7 +9,7 @@
           </md-card-title-text>
           <md-card-title-media>
             <div class="md-media-lg card-media">
-            	<img src="images/yeoman.png" alt="Andre">
+            	<img src="images/picado.png" alt="Andre">
             </div>
           </md-card-title-media>
         </md-card-title>
@@ -21,7 +21,6 @@
     </div>
     <div flex-xs flex-gt-xs="50" layout="column">
       <h2>My todos</h2>
-      
       <form role="form" ng-submit="addTodo()">
           <div class="input-group form-group">
             <input type="text" ng-model="todo" placeholder="What needs to be done?" class="form-control">
@@ -42,5 +41,7 @@
       </div>
     </div>
   </md-content>
+  <md-datepicker ng-model="myDate" md-placeholder="Cual es tu fecha?"></md-datepicker>
+  
 </div>
 
