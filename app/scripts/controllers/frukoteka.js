@@ -50,7 +50,6 @@ angular.module('appYoApp')
     $scope.myDate.getDate());
     $scope.onlyWeekendsPredicate = function(date) {
       var day = date.getDay();
-      var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
       var f=new Date();
       return f.day === 0 || f.day === 6;
     }

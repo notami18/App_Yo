@@ -11,7 +11,9 @@ angular
     'ngTouch',
     'ngMaterial',
     'ui.sortable',
-    'LocalStorageModule'
+    'LocalStorageModule',
+    'ui.bootstrap'
+
   ])
 
   .config(['localStorageServiceProvider', function(localStorageServiceProvider){
